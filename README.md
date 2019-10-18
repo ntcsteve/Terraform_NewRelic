@@ -34,7 +34,7 @@ Please replace the following:
 
 Many [Terraform recommeded practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html) are applicable especially when it comes to encrypting [New Relic Admin API keys](https://www.terraform.io/docs/state/sensitive-data.html). 
 
-Please review your Terraform deployment pipeline and decide the best method for production. With my environment, I used [Terraform Cloud](https://app.terraform.io) to encrypt senstive data in the UI. 
+Please review your Terraform deployment pipeline and decide the best method for your  environment. With my deployment, I used [Terraform Cloud](https://app.terraform.io) to encrypt senstive data in the UI. 
 
 ## Addtional Links
 
