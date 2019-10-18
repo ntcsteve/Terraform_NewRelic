@@ -17,6 +17,12 @@ These materials were prepared as part of my technical talk at DevOps Days 2019 (
 5. Experiment with a one simple Terraform module before adding more.
 6. Consider implementing contextual application metadata for better observability.
 
+#### Recomended modules to start with Terraform and New Relic
+
+1. Small modules = tf_single_alert & tf_single_dashboard 
+2. tf_single_alert + tf_single_dashboard = tf_module_examples
+3. Complex modules based on Google SRE 4 Golden Signals = tf_module_golden_signals
+
 ## Notes
 
 The provided tf files **WILL NOT** work out of the box. 
@@ -26,12 +32,16 @@ Please replace the following:
 - <'APM_APPNAME'> with your designated application name
 - <'EMAIL'> with your preferred email address
 
-Many [Terraform recommeded practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html) are applicable especially when it comes to encrypting [New Relic Admin API keys](https://www.terraform.io/docs/state/sensitive-data.html). Please review your Terraform deployment pipeline and decide the best method for production.
+Many [Terraform recommeded practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html) are applicable especially when it comes to encrypting [New Relic Admin API keys](https://www.terraform.io/docs/state/sensitive-data.html). 
+
+Please review your Terraform deployment pipeline and decide the best method for production. With my environment, I used [Terraform Cloud](https://app.terraform.io) to encrypt senstive data in the UI. 
 
 ## Addtional Links
 
-[DevOps Days 2019 (Taiwan) Presentation](https://www.meetup.com/Sydney-Volunteer-Python-Programmers/)
+[DevOps Days 2019 (Taiwan) Presentation - Mandarin](https://www.dropbox.com/s/iqbm5qo363rzp89/Observability%20as%20Code%20%28DevOps%20Days%20TW%202019%29%20Traditional%20Mandarin.pdf?dl=0)
 
-[Terraform and New Relic Best Practice Guide](https://www.udemy.com/the-python-mega-course/)
+DevOps Days 2019 (Taiwan) Presentation - English - Coming Soon
+
+[Terraform and New Relic Best Practice Guide](https://www.dropbox.com/s/yp2tq72et0rrf7n/Terraform%20with%20New%20Relic%20Best%20Practices.pdf?dl=0)
 
 [Modular Infrastructure Deployments at New Relic with Terraform](https://www.hashicorp.com/resources/modular-infrastructure-deployments-new-relic-terraform)
