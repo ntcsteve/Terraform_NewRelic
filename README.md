@@ -1,6 +1,6 @@
 ## Observability as Code with Terraform and New Relic
 
-#### Technical Overview
+### Technical Overview
 
 This is a consolidated best practice guide available for anyone who is interested to use Terraform with New Relic.
 
@@ -34,7 +34,21 @@ Please replace the following:
 
 Many [Terraform recommeded practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html) are applicable especially when it comes to encrypting [New Relic Admin API keys](https://www.terraform.io/docs/state/sensitive-data.html). 
 
-Please review your Terraform deployment pipeline and decide the best method for your  environment. With my deployment, I used [Terraform Cloud](https://app.terraform.io) to encrypt senstive data in the UI. 
+Please review your Terraform deployment pipeline and decide the best method for your  environment. 
+
+## Terraform Cloud
+
+With my deployment, I used [Terraform Cloud](https://app.terraform.io) to encrypt senstive data in the UI. Please see this [Github repository](https://github.com/ntcsteve/Terraform_Cloud) and variable settings from the main tf module as an example.
+
+#### Terraform Variables
+- nr_api_key = (your API Key)
+- nr_apm_app = (your Appname)
+- nr_alert_email = (your Email Address)
+
+#### Environment Variables
+- CONFIRM_DESTROY = 1
+
+For more details, see [here](https://www.terraform.io/docs/cloud/workspaces/settings.html) for more Terraform settings.
 
 ## Addtional Links
 
