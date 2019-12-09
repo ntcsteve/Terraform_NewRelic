@@ -19,7 +19,7 @@ These materials were prepared as part of my technical talk at DevOps Days 2019 (
 
 #### Recomended modules to start with Terraform and New Relic
 
-1. Small modules = tf_single_alert & tf_single_dashboard 
+1. Small modules = tf_single_alert or tf_single_dashboard 
 2. tf_single_alert + tf_single_dashboard = tf_module_examples
 3. Complex modules based on Google SRE 4 Golden Signals = tf_module_golden_signals
 
@@ -40,7 +40,7 @@ Please review your Terraform deployment pipeline and decide the best method for 
 
 [DevOps Days 2019 (Taiwan) Presentation - Mandarin](https://www.dropbox.com/s/iqbm5qo363rzp89/Observability%20as%20Code%20%28DevOps%20Days%20TW%202019%29%20Traditional%20Mandarin.pdf?dl=0)
 
-DevOps Days 2019 (Taiwan) Presentation - English - Coming Soon
+[DevOps Days 2019 (Taiwan) Presentation - English](https://www.dropbox.com/s/hahglmuilx3ov2g/Observability%20as%20Code%20%28DevOps%20Days%20TW%202019%29%20English.pdf?dl=0)
 
 [Terraform and New Relic Best Practice Guide](https://www.dropbox.com/s/yp2tq72et0rrf7n/Terraform%20with%20New%20Relic%20Best%20Practices.pdf?dl=0)
 
