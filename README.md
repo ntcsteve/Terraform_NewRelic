@@ -62,12 +62,16 @@ For more details, see [here](https://www.terraform.io/docs/cloud/workspaces/sett
 
 ## Addtional Links
 
-New Relic Terraform Official [Provider Page](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs)
+From Infrastructure-as-Code to Observability-as-Code (APAC) [Webinar](https://newrelic.com/resources/webinars/infrastructure-as-code-observability-01-07-20).
 
-New Relic Terraform Official [Github Page](https://github.com/newrelic/terraform-provider-newrelic)
+Materials, references, and the slide from the [Recording](https://drive.google.com/file/d/1xPpQ9OQaWUAJRFWWoSWKQb0_qNWhVEdy/view?usp=sharing).
 
-New Relic Dashboard in [Terraform](https://www.terraform.io/docs/providers/newrelic/r/dashboard.html) and [Supported Visualizations](https://docs.newrelic.com/docs/insights/insights-api/manage-dashboards/insights-dashboard-api#supported)
+New Relic Terraform Official [Provider Page](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs).
 
-New Relic Alert [Policy](https://www.terraform.io/docs/providers/newrelic/r/alert_policy.html), [Condition](https://www.terraform.io/docs/providers/newrelic/r/alert_condition.html), and [Channel](https://www.terraform.io/docs/providers/newrelic/r/alert_channel.html)
+New Relic Terraform Official [Github Page](https://github.com/newrelic/terraform-provider-newrelic).
+
+New Relic Dashboard in [Terraform](https://www.terraform.io/docs/providers/newrelic/r/dashboard.html) and [Supported Visualizations](https://docs.newrelic.com/docs/insights/insights-api/manage-dashboards/insights-dashboard-api#supported).
+
+New Relic Alert [Policy](https://www.terraform.io/docs/providers/newrelic/r/alert_policy.html), [Condition](https://www.terraform.io/docs/providers/newrelic/r/alert_condition.html), and [Channel](https://www.terraform.io/docs/providers/newrelic/r/alert_channel.html).
 
 [Modular Infrastructure Deployments at New Relic with Terraform](https://www.hashicorp.com/resources/modular-infrastructure-deployments-new-relic-terraform)
